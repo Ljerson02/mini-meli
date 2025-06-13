@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix mini-meli-web\" \"npm run dev:watch --prefix mini-meli-api\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

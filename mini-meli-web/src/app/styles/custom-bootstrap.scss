@@ -1,0 +1,9 @@
+@import './colors';
+
+$primary: $primary;
+$secondary: $secondary;
+$light: $light;
+$dark: $dark;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.scss';
